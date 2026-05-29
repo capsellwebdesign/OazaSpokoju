@@ -1,313 +1,1589 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Oaza Spokoju — Stylizacja Rzęs</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilonka — Moda Damska</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-logo">
-    <div class="nav-logo"><img src="Images/Oaza Spokoju Logo.png"></div>
-  </a>
-  <ul class="nav-links">
-    <li><a href="#" class="active">Strona Główna</a></li>
-    <li><a href="#uslugi">Usługi</a></li>
-    <li><a href="#rezerwacja">Kontakt</a></li>
-    <li><a href="tel:+48600344173" class="nav-cta">Umów wizytę</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-left">
-    <div class="hero-badge">Stylizacja Rzęs Lublin</div>
-    
-    <h1 class="hero-title">
-      Obudź swoje<br><em>spojrzenie</em>
-    </h1>
-    
-    <p class="hero-subtitle">Podkręć swój look</p>
-    
-    <!-- Eye strip -->
-    <div class="eye-strip">
-      <div class="eye-item">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg,#e8d5b0,#c9a96e);display:flex;align-items:center;justify-content:center;">
-          <img src="Images/oko.png">
-        </div>
-        <div class="eye-label">Kim</div>
-      </div>
-      <div class="eye-item">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg,#d4a5a5,#c9a96e);display:flex;align-items:center;justify-content:center;">
-          <img src="Images/oko2.png">
-        </div>
-        <div class="eye-label">Volume</div>
-      </div>
-      <div class="eye-item">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg,#c9a96e,#4a3728);display:flex;align-items:center;justify-content:center;">
-          <img src="Images/oko.png">
-        </div>
-        <div class="eye-label">Hollywood</div>
-      </div>
-      <div class="eye-item">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg,#7a5c47,#1a1410);display:flex;align-items:center;justify-content:center;">
-          <img src="Images/oko2.png">
-        </div>
-        <div class="eye-label">Blink</div>
-      </div>
-      <div class="eye-item">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg,#e8d5b0,#d4a5a5);display:flex;align-items:center;justify-content:center;">
-          <img src="Images/oko.png">
-        </div>
-        <div class="eye-label">Express</div>
-      </div>
-    </div>
-    
-    <p class="hero-desc">
-      Stylizacja rzęs dopasowana do Ciebie — od naturalnych objętości po mocny efekt glamour. Każda wizyta to indywidualne podejście i precyzja w każdym włósku.
-    </p>
-    
-    <div class="hero-cta-group">
-      <a href="tel:+48600344173" class="btn-primary">
-        <span>Umów Wizytę</span>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-      <a href="tel:+48600344173" class="btn-phone">
-        <div class="phone-icon">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 2.5C2 1.67 2.67 1 3.5 1h2.4L7 4.27l-1.5 1.23C6.07 6.86 7.14 7.93 8.5 8.5L9.73 7l3.27 1.1V10.5c0 .83-.67 1.5-1.5 1.5C5.1 12 2 8.9 2 5v-.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
-        </div>
-        <div>
-          <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-light)">Zadzwoń teraz</div>
-          <div style="font-size:16px;font-family:'Cormorant Garamond',serif;font-weight:500;">+48 600 344 173</div>
-        </div>
-      </a>
+  <!-- ── STICKY BAR ── -->
+  <div class="sticky-bar">
+    <span class="sticky-bar-left">Masz pytanie? <strong>Ilona odpowiada szybko</strong> — napisz teraz</span>
+    <div class="sticky-btns">
+      <a href="https://wa.me/48600344173?text=Cześć Ilona! Chciałabym zapytać o kolekcję 😊" class="s-btn wa" target="_blank">WhatsApp</a>
+      <a href="https://m.me/ilonkakotowska" class="s-btn fb" target="_blank">Messenger</a>
     </div>
   </div>
 
-  <div class="hero-right">
-    <!-- MAIN HERO IMAGE -->
-    <div class="hero-image-main">
-      <div class="hero-image-placeholder">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <rect x="6" y="12" width="36" height="28" rx="3" stroke="#7a5c47" stroke-width="1.5"/>
-          <circle cx="24" cy="26" r="7" stroke="#7a5c47" stroke-width="1.5"/>
-          <circle cx="24" cy="26" r="2.5" fill="#c9a96e"/>
-          <path d="M6 18h36" stroke="#7a5c47" stroke-width="1.5"/>
-          <circle cx="34" cy="15" r="1.5" fill="#c9a96e"/>
+  <!-- ── NAV ── -->
+  <nav id="mainNav">
+    <a href="#" class="nav-logo">Ilonka</a>
+    <ul class="nav-links">
+      <li><a href="#kolekcja">Kolekcje</a></li>
+      <li><a href="#hity">Hity lata</a></li>
+      <li><a href="#zestawy">Zestawy</a></li>
+      <li><a href="#opinie">Opinie</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#kolekcja" onclick="closeMenu()">Kolekcje</a>
+    <a href="#hity" onclick="closeMenu()">Hity lata</a>
+    <a href="#zestawy" onclick="closeMenu()">Zestawy</a>
+    <a href="#opinie" onclick="closeMenu()">Opinie</a>
+    <a href="#kontakt" onclick="closeMenu()">Kontakt</a>
+  </div>
+
+  <!-- ── TICKER ── -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>🔥 Nowe modele właśnie trafiły do kolekcji — sprawdź zanim znikną!</span>
+      <span>✨ Ponad 200 zadowolonych klientek z Lublina i okolic</span>
+      <span>📦 Zamów przez WhatsApp — dostawa następnego dnia</span>
+      <span>💅 Darmowe porady stylu przy każdym zamówieniu</span>
+      <span>🔥 Nowe modele właśnie trafiły do kolekcji — sprawdź zanim znikną!</span>
+      <span>✨ Ponad 200 zadowolonych klientek z Lublina i okolic</span>
+      <span>📦 Zamów przez WhatsApp — dostawa następnego dnia</span>
+      <span>💅 Darmowe porady stylu przy każdym zamówieniu</span>
+    </div>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-text">
+      <span class="pas-badge">🔴 Znasz to uczucie?</span>
+      <h1 class="hero-h1">Masz pełną szafę,<br>a <em>nie ma co założyć</em></h1>
+      <p class="hero-agitate">Sieciówki serwują to samo od lat. Chcesz elegancji — dostajesz to samo co sąsiadka. Chcesz sportowo-kobieco — albo dres, albo garnitur.</p>
+      <p class="hero-solution"><strong>Ilonka to inaczej.</strong> Ręcznie dobrane kolekcje, porady stylu i zamówienie w 2 minuty przez WhatsApp.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/48600344173?text=Cześć Ilona! Chciałabym zamówić 😊" class="cta-wa-big" target="_blank">
+          <span class="cta-icon">📱</span>
+          <span class="cta-label">Zamów Przez WhatsApp — To Proste!</span>
+        </a>
+        <a href="https://m.me/ilonkakotowska" class="cta-fb-big" target="_blank">💬 Napisz na Messenger</a>
+        <p class="cta-sub">Bez rejestracji · Bez koszyka · Bez czekania</p>
+      </div>
+      <div class="social-proof">
+        <span class="stars">★★★★★</span>
+        <span class="sp-text">Ponad 200 zadowolonych klientek z Lublina i okolic</span>
+      </div>
+    </div>
+    <div class="hero-image-side">
+      <div class="trust-quote">
+        "Zamówiłam przez WhatsApp, paczka następnego dnia. Polecam!"
+        <div class="q-name">— Kasia, Lublin</div>
+      </div>
+      <div class="owner-wrap">
+        <div class="owner-photo">
+          <span class="owner-photo-placeholder"><img src="Ilonka Photos/Ilonka Prof.jpg"></span>
+        </div>
+        <div class="owner-tag"><span class="dot"></span>Ilona — Właścicielka</div>
+      </div>
+      <div class="hero-deco-ring"></div>
+    </div>
+  </section>
+
+  <!-- ── JAK ZAMÓWIĆ ── -->
+  <section class="how">
+    <div class="how-inner">
+      <h2 class="how-title">Jak zamówić? <em>To naprawdę proste.</em></h2>
+      <div class="how-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text"><strong>Wybierz model</strong>Znajdź coś dla siebie w kolekcji poniżej</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text"><strong>Napisz do Ilony</strong>WhatsApp lub Messenger — wyślij nazwę i rozmiar</div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text"><strong>Gotowe! 🎉</strong>Ilona odpisuje szybko i ustala szczegóły dostawy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HITY LATA ── -->
+  <section class="section warm-bg" id="hity">
+    <div class="sec-head">
+      <h2 class="sec-title">☀️ Hity lata</h2>
+      <span class="sec-sub">Polecenia tygodnia</span>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card fade-in">
+        <div class="product-img">
+          <span class="badge hit">Hit!</span>
+          <img src="produkty/att.USCzvHy_Lyynul0hCa5961AlpbCzpP3ySMpvsMcWtx0.webp" alt="Komplet fuksja z falbanami — różowy przód" class="variant-img active" data-variant="różowy">
+          <img src="produkty/att.oLI9yFySvYksvwaOy7-CS-aJYwdroi7mZ10pgJsfSgw.webp" alt="Komplet fuksja z falbanami — czarny przód" class="variant-img" data-variant="czarny">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet fuksja z falbanami 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="różowy" style="background:#E8407A" title="Różowy/Fuksja"></button>
+            <button class="color-dot" data-variant="czarny" style="background:#222" title="Czarny"></button>
+          </div>
+          <div class="product-name">Komplet fuksja z falbanami</div>
+          <div class="product-desc">Odważna fuksja w dwuczęściowym komplecie — crop top z falbanami i dopasowane szorty.</div>
+          <div class="size-picker" data-product="Komplet fuksja z falbanami">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">60 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet fuksja z falbanami 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card fade-in" data-cat="sukienki eleganckie">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.tn98QDYOnCjTVjoONmMYROmMtvKype0zmjLQe7ay94U.webp" alt="Sukienka maxi w kwiaty" class="variant-img active" data-variant="brzoskwiniowa">
+          <img src="produkty/att.nTQscnk7o9V6T17VYEs_wk-tMTmnan9McSl2XjAsHfk.webp" alt="Sukienka maxi w kwiaty" class="variant-img" data-variant="zielona">
+          <img src="produkty/Różowa sukienka w kwiaty.webp" alt="Sukienka maxi w kwiaty" class="variant-img" data-variant="różowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka maxi w kwiaty 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="brzoskwiniowa" style="background:#FFCC99" title="Brzoskwiniowa"></button>
+            <button class="color-dot" data-variant="zielona" style="background:green" title="Zielona"></button>
+            <button class="color-dot" data-variant="różowa" style="background:#F0A0B0" title="Różowa"></button>
+          </div>
+          <div class="product-name">Sukienka maxi w kwiaty</div>
+          <div class="product-desc">Zwiewna maxi z kwiatami i falbankami przy ramionach — romantyczna i elegancka.</div>
+          <div class="size-picker" data-product="Sukienka maxi w kwiaty">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">70 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka maxi w kwiaty 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <div class="product-img">
+          <span class="badge hit">Hit!</span>
+          <img src="produkty/att.QIjQ--TQTpgg9f6E9UdXaKIJmcZh9ei0pT-lY1HTPIU.webp" alt="Komplet boho czarno-biały" class="variant-img active" data-variant="czarno-biały">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet boho czarno-biały 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Komplet boho czarno-biały</div>
+          <div class="product-desc">Efektowny komplet z graficznym printem — crop top i szerokie spodnie palazzo. Styl boho w mocnym wydaniu.</div>
+          <div class="size-picker" data-product="Komplet boho">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">70 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet boho czarno-biały 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card fade-in">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.GsYh074hwQaMnLe68mZBH1zgAnQXQmOQ0znrt7dmbiA.webp" alt="Sukienka w różowe pasy" class="variant-img active" data-variant="różowa">
+          <img src="produkty/att.h3jzt6FJ_tbtmivUxJojeY2oEWz_GmwIByaD_paSmcw.webp" alt="Sukienka w niebieskie pasy" class="variant-img" data-variant="niebieskie-pasy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka w pasy 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="różowa" style="background:pink" title="Różowa"></button>
+            <button class="color-dot" data-variant="niebieskie-pasy" style="background:blue" title="Niebieska"></button>
+          </div>
+          <div class="product-name">Sukienka w pasy</div>
+          <div class="product-desc">Wakacyjna sukienka z wiązaniem w talii i bufiastymi rękawami — energetyczne pasy i lekka tkanina.</div>
+          <div class="size-picker" data-product="Sukienka w pasy">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">60 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka w pasy 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PEŁNA KOLEKCJA ── -->
+  <section class="section" id="kolekcja">
+    <div class="sec-head">
+      <h2 class="sec-title">Kolekcja</h2>
+      <span class="sec-sub">Ponad 50 modeli</span>
+    </div>
+    <div class="cat-row">
+      <button class="pill active" onclick="filterCat(this,'wszystkie')">Wszystkie</button>
+      <button class="pill" onclick="filterCat(this,'eleganckie')">Eleganckie</button>
+      <button class="pill" onclick="filterCat(this,'sportowe')">Sportowe</button>
+      <button class="pill" onclick="filterCat(this,'casualowe')">Casualowe</button>
+      <button class="pill" onclick="filterCat(this,'sukienki')">Sukienki</button>
+      <button class="pill" onclick="filterCat(this,'komplety')">Komplety</button>
+      <button class="pill" onclick="filterCat(this,'bluzki')">Bluzki</button>
+      <button class="pill" onclick="filterCat(this,'spodnie')">Spodnie</button>
+    </div>
+    <div class="product-grid" id="kolekcjaGrid">
+
+      <!-- SUKIENKA NA JEDNO RAMIĘ -->
+      <div class="product-card fade-in" data-cat="sukienki eleganckie">
+        <div class="product-img">
+          <img src="produkty/att.8LSKrL5mrpI4lEu8SGmNMkpK2oLMS9G8dED76pWAc1s.webp" alt="Sukienka na jedno ramię — biała" class="variant-img active" data-variant="biała">
+          <img src="produkty/att._R32avgl2qePbC-hfWxfZZsbYNyhifgDcXYp3UfF_NE.webp" alt="Sukienka na jedno ramię — zielona" class="variant-img" data-variant="zielona">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka na jedno ramię 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="biała" style="background:#F5F5F5; border:1px solid #ddd !important" title="Biała"></button>
+            <button class="color-dot" data-variant="zielona" style="background:#2ECC71" title="Zielona"></button>
+          </div>
+          <div class="product-name">Sukienka na jedno ramię</div>
+          <div class="product-desc">Klasyczna biel lub efektowna zieleń z falbaną — idealna na wesele lub letnią imprezę.</div>
+          <div class="size-picker" data-product="Sukienka na jedno ramię">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">60 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka na jedno ramię 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA MIDI — 6 kolorów -->
+      <div class="product-card fade-in" data-cat="sukienki casualowe">
+        <div class="product-img">
+          <span class="badge hit">Hit!</span>
+          <img src="produkty/att.8YZE8cSn3r26_2wdUT6vj4mgWIy9DFAS4dh4oOFiSdY.webp" alt="Sukienka midi bordowa" class="variant-img active" data-variant="bordowa">
+          <img src="produkty/att.SgCUycdemT1AfCsN8R7P2aphRE-UTWiyESyskgVUyNE.webp" alt="Sukienka midi brązowa" class="variant-img" data-variant="brązowa">
+          <img src="produkty/att.cxsRB0rCbJ6rPrHa6hrLWCfgzBmA49OT6lSx4M1CPkQ.webp" alt="Sukienka midi różowa" class="variant-img" data-variant="różowa">
+          <img src="produkty/att.f6z8lmFCKDno-M9mq3Ndpj_WAEvNPQ9VvGKtFr7yO3U.webp" alt="Sukienka midi kremowa" class="variant-img" data-variant="kremowa">
+          <img src="produkty/att.L3c2jdRqWAO9g0OomF9fkjJ04e9cgjtab7WdGNczifU.webp" alt="Sukienka midi żółta" class="variant-img" data-variant="żółta">
+          <img src="produkty/att.pCNX1qUpO3SQe5XgKQ70OBwMxEGjA2lF_lkdW06yCkI.webp" alt="Sukienka midi biała" class="variant-img" data-variant="biała">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka midi 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="bordowa" style="background:#7A2030" title="Bordowa"></button>
+            <button class="color-dot" data-variant="brązowa" style="background:#7A4A30" title="Brązowa"></button>
+            <button class="color-dot" data-variant="różowa" style="background:#F0A0B0" title="Różowa"></button>
+            <button class="color-dot" data-variant="kremowa" style="background:#F5EED8" title="Kremowa"></button>
+            <button class="color-dot" data-variant="żółta" style="background:#F0D060" title="Żółta"></button>
+            <button class="color-dot" data-variant="biała" style="background:#F5F5F5; border:1px solid #ddd" title="Biała"></button>
+          </div>
+          <div class="product-name">Sukienka midi</div>
+          <div class="product-desc">Prosta, dopasowana midi — dostępna w 6 kolorach. Klasyka, która zawsze wygląda świetnie.</div>
+          <div class="size-picker" data-product="Sukienka midi">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka midi 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA MINI W PASKI -->
+      <div class="product-card fade-in" data-cat="sukienki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.2NyHPzmAReFebXscuyqJ2peVp6D6Js3gQJECJUWvd8g.webp" alt="Sukienka mini w paski" class="variant-img active" data-variant="paski">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka mini w paski 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sukienka mini w paski</div>
+          <div class="product-desc">Odważne poziome pasy w body-con fasonie — pewna siebie i kobieca.</div>
+          <div class="size-picker" data-product="Sukienka mini w paski">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka mini w paski 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA BEŻOWA ŻEBERKOWA -->
+      <div class="product-card fade-in" data-cat="sukienki eleganckie">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.DogRJRCWVK0yWaNVaCPLv1RURmQQxRowpIP2OQXC7ig.webp" alt="Sukienka beżowa żeberkowa" class="variant-img active" data-variant="beżowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka beżowa żeberkowa 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sukienka beżowa żeberkowa</div>
+          <div class="product-desc">Prosta i elegancka — beżowa sukienka na lato, która pasuje do każdego obuwia.</div>
+          <div class="size-picker" data-product="Sukienka beżowa żeberkowa">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka beżowa żeberkowa 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA MAXI W KWIATY (kolekcja) -->
+      <div class="product-card fade-in" data-cat="sukienki eleganckie">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.tn98QDYOnCjTVjoONmMYROmMtvKype0zmjLQe7ay94U.webp" alt="Sukienka maxi w kwiaty" class="variant-img active" data-variant="brzoskwiniowa">
+          <img src="produkty/att.nTQscnk7o9V6T17VYEs_wk-tMTmnan9McSl2XjAsHfk.webp" alt="Sukienka maxi w kwiaty" class="variant-img" data-variant="zielona">
+          <img src="produkty/Różowa sukienka w kwiaty.webp" alt="Sukienka maxi w kwiaty" class="variant-img" data-variant="różowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka maxi w kwiaty 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="brzoskwiniowa" style="background:#FFCC99" title="Brzoskwiniowa"></button>
+            <button class="color-dot" data-variant="zielona" style="background:green" title="Zielona"></button>
+            <button class="color-dot" data-variant="różowa" style="background:#F0A0B0" title="Różowa"></button>
+          </div>
+          <div class="product-name">Sukienka maxi w kwiaty</div>
+          <div class="product-desc">Zwiewna maxi z kwiatami i falbankami przy ramionach — romantyczna i elegancka.</div>
+          <div class="size-picker" data-product="Sukienka maxi w kwiaty">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">70 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka maxi w kwiaty 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KURTKA JEANSOWA Z HAFTEM (poprzednio "sukienka jeansowa z haftem") -->
+      <div class="product-card fade-in" data-cat="casualowe">
+        <div class="product-img">
+          <img src="produkty/att.K9FzuNx72qsvEiE8n_rHartdCZNGZspuHKkECzA_wpk.webp" alt="Kurtka jeansowa z haftem" class="variant-img active" data-variant="jeans">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka jeansowa z haftem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sukienka Midi z haftem w kwiaty</div>
+          <div class="product-desc">Casualowa sukienka w kolorze szarego melanżu z ozdobnym haftem kwiatowym na dole. Zapinana na napy z przodu, z krótkim rękawem i efektownym postrzępionym wykończeniem. Idealna na co dzień — łączy prostotę kroju z romantycznym detalem.</div>
+          <div class="size-picker" data-product="Kurtka jeansowa z haftem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">100 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka jeansowa z haftem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA BEŻOWA Z ROZCIĘCIEM -->
+      <div class="product-card fade-in" data-cat="sukienki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.nZ4V-yYnmGmp-Dl1YqshnW5czeeH43MKcbr32DQTQ28.webp" alt="Sukienka beżowa z rozcięciem" class="variant-img active" data-variant="beżowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka beżowa z rozcięciem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sukienka beżowa z rozcięciem</div>
+          <div class="product-desc">Elegancka beżowa midi z rozcięciem i subtelnym dekoltem — kobiecość ukryta w szczegółach.</div>
+          <div class="size-picker" data-product="Sukienka beżowa z rozcięciem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka beżowa z rozcięciem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA BOHO W KWIATY -->
+      <div class="product-card fade-in" data-cat="sukienki casualowe">
+        <div class="product-img">
+          <img src="produkty/att._zIn_Qbbjx1BeNKFN-l3q1QhQezD1TD5WNll1sjd1ig.webp" alt="Sukienka boho niebieska" class="variant-img active" data-variant="niebieska">
+          <img src="produkty/att.hwtArnzZ2FYhgO5IWPseEPmIv4n4KgKfvxmV9lvOBBQ.webp" alt="Sukienka boho błękitna" class="variant-img" data-variant="błękitna">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka boho 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="niebieska" style="background:#6090C0" title="Niebieska"></button>
+            <button class="color-dot" data-variant="błękitna" style="background:#3060A0" title="Błękitna"></button>
+          </div>
+          <div class="product-name">Sukienka boho w kwiaty</div>
+          <div class="product-desc">Zwiewna sukienka koszulowa z kwiatowym printem — boho w najlepszym wydaniu.</div>
+          <div class="size-picker" data-product="Sukienka boho w kwiaty">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka boho 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA ZE ZŁOTYM ZAMKIEM -->
+      <div class="product-card fade-in" data-cat="sukienki eleganckie">
+        <div class="product-img">
+          <img src="produkty/att.84G9HZU-R0M9xijZpvnIM4YmScw2IenZ6lVtL37D46k.webp" alt="Sukienka czarna złoty zamek" class="variant-img active" data-variant="czarna">
+          <img src="produkty/att.hHdg5CBXj9nyU5zvZ75L65BaFUaoJNSfmw3G6cpuZFY.webp" alt="Sukienka biała złoty zamek" class="variant-img" data-variant="biała">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka ze złotym zamkiem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="czarna" style="background:#222" title="Czarna"></button>
+            <button class="color-dot" data-variant="biała" style="background:#F5F5F5; border:1px solid #ddd" title="Biała"></button>
+          </div>
+          <div class="product-name">Sukienka ze złotym zamkiem</div>
+          <div class="product-desc">Sportowy krój z eleganckim twistem — złoty zamek i falbanki tworzą efektowny kontrast.</div>
+          <div class="size-picker" data-product="Sukienka ze złotym zamkiem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">100 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka ze złotym zamkiem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLUZKI OFF-SHOULDER / HISZPANKA -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <span class="badge hit">Hit!</span>
+          <img src="produkty/att.L8D_s8oqviT4fsy2izguSriQXND4KCY_t6roeLffgBY.webp" alt="Bluzka różowa off-shoulder" class="variant-img active" data-variant="różowa">
+          <img src="produkty/att.U7qi9aiFes7o9k9Jg4wYKbA8zBYmgJvvou0MCRHR3Tc.webp" alt="Bluzka żółta off-shoulder" class="variant-img" data-variant="żółta">
+          <img src="produkty/att.p9mz6Y4auhpeXReOrHA48UwFuu6yJzqY9wNMsqzSRAo.webp" alt="Bluzka biała off-shoulder" class="variant-img" data-variant="biała">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Bluzka off-shoulder Hiszpanka 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="różowa" style="background:#F4A0B0" title="Różowa"></button>
+            <button class="color-dot" data-variant="żółta" style="background:#F5D060" title="Żółta"></button>
+            <button class="color-dot" data-variant="biała" style="background:#F8F8F8; border:1px solid #ddd" title="Biała"></button>
+          </div>
+          <div class="product-name">Bluzka off-shoulder "Hiszpanka"</div>
+          <div class="product-desc">Letnia bluzka z odkrytymi ramionami z muślinu — romantyczny look na ciepłe dni.</div>
+          <div class="size-picker" data-product="Bluzka off-shoulder Hiszpanka">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Bluzka off-shoulder Hiszpanka 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP SQUARE NECK -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.1RKuUloaETbmNoEkml82EiYWxTlDyp4ilbJeezEO1WU.webp" alt="Top czarny square neck" class="variant-img active" data-variant="czarny">
+          <img src="produkty/att.JVYFMJH3ugg1v8BD9IXoYqcOOtCeTGevUNR0qyOdeJ0.webp" alt="Top liliowy square neck" class="variant-img" data-variant="liliowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top square neck 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="czarny" style="background:#222" title="Czarny"></button>
+            <button class="color-dot" data-variant="liliowy" style="background:#C8A8D8" title="Liliowy"></button>
+          </div>
+          <div class="product-name">Top square neck</div>
+          <div class="product-desc">Klasyczny top z kwadratowym dekoltem — baza każdej szafy. Zestawiasz z czym chcesz.</div>
+          <div class="size-picker" data-product="Top square neck">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top square neck 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOWA KARTA: SPODENKI JEANSOWE -->
+      <div class="product-card fade-in" data-cat="spodnie casualowe">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.JVYFMJH3ugg1v8BD9IXoYqcOOtCeTGevUNR0qyOdeJ0.webp" alt="Spodenki jeansowe" class="variant-img active" data-variant="jeans">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodenki jeansowe 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spodenki jeansowe</div>
+          <div class="product-desc">Klasyczne jeansowe szorty — pasują do każdego topu. Letni must-have.</div>
+          <div class="size-picker" data-product="Spodenki jeansowe">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">59 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodenki jeansowe 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP ŻEBERKOWY Z GUZIKAMI — 3 kolory -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.kptcaaEYK7iP8R1WVGOV7qt7KFGHN9aBXxHLETafDFE.webp" alt="Top czerwony żeberkowy" class="variant-img active" data-variant="czerwony">
+          <img src="produkty/att.Rh39NXB_3lL6HGkp_z2sove57qrgYHi5Y6VENEAkh8Y.webp" alt="Top różowy żeberkowy" class="variant-img" data-variant="różowy">
+          <img src="produkty/att.G-C9JEY5G2JZh6fBwhj5MDKeKei8CCwKkB_CG8jb1GA.webp" alt="Top beżowy żeberkowy" class="variant-img" data-variant="beżowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top żeberkowy z guzikami 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="czerwony" style="background:#D03030" title="Czerwony"></button>
+            <button class="color-dot" data-variant="różowy" style="background:#F0A0B0" title="Różowy"></button>
+            <button class="color-dot" data-variant="beżowy" style="background:#E8D8C0" title="Beżowy"></button>
+          </div>
+          <div class="product-name">Top żeberkowy z guzikami</div>
+          <div class="product-desc">Żeberkowy top z guzikami — dostępny w 3 kolorach. Letni must-have do spódnic i jeansów.</div>
+          <div class="size-picker" data-product="Top żeberkowy z guzikami">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top żeberkowy z guzikami 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP ŻEBERKOWY BIAŁY -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.ELybxfzuRHJsu3m6puQYlAPzE6mTC5Miu2CwoUZsMIQ.webp" alt="Top biały żeberkowy ze sznurowaniem" class="variant-img active" data-variant="sznurowanie">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top biały żeberkowy z guzikami 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Top żeberkowy z guzikami</div>
+          <div class="product-desc">Klasyczna biel w żeberkowym kroju — z guzikami lub sznurowaniem. Świeży i ponadczasowy.</div>
+          <div class="size-picker" data-product="Top biały żeberkowy z guzikami">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top biały żeberkowy z guzikami 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP CROCHET -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.GiXmYTE_pTEioy_7ye8xjdyRiEoK-odyZ9uNF8iSEEw.webp" alt="Top różowy crochet" class="variant-img active" data-variant="różowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top crochet 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Top crochet</div>
+          <div class="product-desc">Letni top w stylu boho — ażurowy crochet to hit lata. Lekki, pełen charakteru.</div>
+          <div class="size-picker" data-product="Top crochet">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top crochet 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP CZARNY MILITARNY -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.AUStGo0Zwy6I8Fiku2xzYt6I3Nd9-5y7BHp-Qr2CA14.webp" alt="Top czarny militarny" class="variant-img active" data-variant="czarny">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top czarny militarny 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Top czarny militarny</div>
+          <div class="product-desc">Military vibe z golden touch — złoty zamek i guziki. Minimalizm z charakterem.</div>
+          <div class="size-picker" data-product="Top czarny militarny">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top czarny militarny 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SWETER RÓŻOWY OVERSIZE -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.lHXUJSSOYmX_9uWeXhCj5QQ2jbiT-eTQ9NQ1pfmbMbo.webp" alt="Sweter różowy oversize" class="variant-img active" data-variant="różowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sweter różowy oversize 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sweter różowy oversize</div>
+          <div class="product-desc">Oversize sweter z kontrastowymi białymi rękawami — casual i przytulny, do jeansu lub spódnicy.</div>
+          <div class="size-picker" data-product="Sweter różowy oversize">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">39 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sweter różowy oversize 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SWETER KREMOWY AŻUROWY -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.BkRRUbCJqv9SGDSgtaTcYPAffYc6l8sm-obdgWuUVE8.webp" alt="Sweter kremowy ażurowy" class="variant-img active" data-variant="kremowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sweter kremowy ażurowy 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Sweter kremowy ażurowy</div>
+          <div class="product-desc">Letni ażurowy crop sweter — lekkość i kobiecość w jednym. Idealny na chłodniejsze wieczory.</div>
+          <div class="size-picker" data-product="Sweter kremowy ażurowy">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">30 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sweter kremowy ażurowy 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOWA KARTA: SPÓDNICO-SPÓDNICA BEŻOWA (ze zdjęcia sweterka) -->
+      <div class="product-card fade-in" data-cat="spodnie eleganckie">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.BkRRUbCJqv9SGDSgtaTcYPAffYc6l8sm-obdgWuUVE8.webp" alt="Spódnica beżowa midi" class="variant-img active" data-variant="beżowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spódnica beżowa midi 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spódnica beżowa midi</div>
+          <div class="product-desc">Elegancka spódnica midi w beżowym odcieniu — idealna do topu lub swetra. Kobieca i wszechstronna.</div>
+          <div class="size-picker" data-product="Spódnica beżowa midi">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spódnica beżowa midi 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KURTKA BIAŁA ZE ZŁOTYMI GUZIKAMI -->
+      <div class="product-card fade-in" data-cat="casualowe">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.QyK-T9XwnE_sAO6kt0mYM12s9BkapKrIxS3jQEoCcSw.webp" alt="Kurtka biała ze złotymi guzikami" class="variant-img active" data-variant="biała">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka biała ze złotymi guzikami 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Kurtka biała ze złotymi guzikami</div>
+          <div class="product-desc">Elegancka biała kurtka ze złotymi guzikami — ponadczasowy klasyk, który doda szyku każdej stylizacji.</div>
+          <div class="size-picker" data-product="Kurtka biała ze złotymi guzikami">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">100 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka biała ze złotymi guzikami 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KOMPLET ŻEBERKOWY SZARO-BEŻOWY — sam top 50 zł -->
+      <div class="product-card fade-in" data-cat="bluzki komplety eleganckie">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.-N66fKBtDjEchB4_VYOX3ytuoJ59Q85OpLhGu69JHzY.webp" alt="Top żeberkowy szaro-beżowy" class="variant-img active" data-variant="szaro-beżowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top żeberkowy szaro-beżowy 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Top żeberkowy szaro-beżowy</div>
+          <div class="product-desc">Crop top z wiązaniem — dostępny też w wersji czarnej. Sam top lub w zestawie z sukienką midi.</div>
+          <div class="size-picker" data-product="Top żeberkowy szaro-beżowy">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">50 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top żeberkowy szaro-beżowy 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP BEŻOWY Z WIĄZANIEM -->
+      <div class="product-card fade-in" data-cat="bluzki casualowe">
+        <div class="product-img">
+          <img src="produkty/att.Oq-Jfo0FkYP2gg-VagUoWbeD4e5LPtZRvhXNQXKCbp0.webp" alt="Top beżowy z wiązaniem" class="variant-img active" data-variant="kremowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top beżowy z wiązaniem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Top beżowy z wiązaniem</div>
+          <div class="product-desc">Crop top z wiązaniem przy dekolcie — casual z kobiecym akcentem.</div>
+          <div class="size-picker" data-product="Top beżowy z wiązaniem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">45 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Top beżowy z wiązaniem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KOMPLET CZARNY Z FALBANKAMI -->
+      <div class="product-card fade-in" data-cat="komplety casualowe">
+        <div class="product-img">
+          <img src="produkty/att.oLI9yFySvYksvwaOy7-CS-aJYwdroi7mZ10pgJsfSgw.webp" alt="Komplet czarny z falbankami" class="variant-img active" data-variant="czarny">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet czarny z falbankami 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Komplet czarny z falbankami</div>
+          <div class="product-desc">Czarny komplet z górą z falbankami i dopasowanymi szortami. Prosta czerń, nieoczywisty detal.</div>
+          <div class="size-picker" data-product="Komplet czarny z falbankami">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">60 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet czarny z falbankami 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPODENKI SPORTOWE ŻÓŁTE -->
+      <div class="product-card fade-in" data-cat="spodnie sportowe">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.TV27QRRLFEasIN9GBoedZk0SeeED-lnBtTRdcGgOKjM.webp" alt="Spodenki sportowe żółte" class="variant-img active" data-variant="beżowo-żółty">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodenki sportowe żółte 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spodenki sportowe żółte</div>
+          <div class="product-desc">Kontrastowe żółte szorty sportowe — lato w pełni. Wygodne i efektowne.</div>
+          <div class="size-picker" data-product="Spodenki sportowe żółte">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">30 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodenki sportowe żółte 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUKIENKA SPORTOWA Z KAPTUREM -->
+      <div class="product-card fade-in" data-cat="sukienki sportowe">
+        <div class="product-img">
+          <img src="produkty/att.Rvu_u7qOnzznK9J1SxSEKDsurCv4b5zgPmoH1AuJgUM.webp" alt="Sukienka sportowa różowa z kapturem" class="variant-img active" data-variant="różowa">
+          <img src="produkty/att.sk0fD5tvITozM9eQPS-K6iehjdAOWVJsfUg-1cjHYXA.webp" alt="Sukienka sportowa żółta z kapturem" class="variant-img" data-variant="żółta">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka sportowa z kapturem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="różowa" style="background:#F0A0B8" title="Różowa"></button>
+            <button class="color-dot" data-variant="żółta" style="background:#F0D060" title="Żółta"></button>
+          </div>
+          <div class="product-name">Sukienka sportowa z kapturem</div>
+          <div class="product-desc">Sportowa sukienka z kapturem — wygoda i styl w jednym. Na leniwe weekendy i nie tylko.</div>
+          <div class="size-picker" data-product="Sukienka sportowa z kapturem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Sukienka sportowa z kapturem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KOMPLET ZIELONY SPORTOWY -->
+      <div class="product-card fade-in" data-cat="komplety sportowe">
+        <div class="product-img">
+          <img src="produkty/att.q7hf8tB1_XgEHwZ3QaaT1GkEhUS5vi4If0AVmzxOtJ0.webp" alt="Komplet zielony sportowy" class="variant-img active" data-variant="zielony">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet zielony sportowy 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Komplet zielony sportowy</div>
+          <div class="product-desc">Letni komplet w soczystej zieleni — crop top z szortami. Wygodny i efektowny jednocześnie.</div>
+          <div class="size-picker" data-product="Komplet zielony sportowy">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">60 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Komplet zielony sportowy 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KOMBINEZON CZARNY ZE ZŁOTYM ZAMKIEM -->
+      <div class="product-card fade-in" data-cat="eleganckie">
+        <div class="product-img">
+          <span class="badge hit">Hit!</span>
+          <img src="produkty/att.4TvHa3Wr5oTWky204-s2cUB2L-dDckkZDgXY6fPWWgY.webp" alt="Kombinezon czarny złoty zamek" class="variant-img active" data-variant="czarny">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kombinezon czarny ze złotym zamkiem 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Kombinezon czarny ze złotym zamkiem</div>
+          <div class="product-desc">Czarny kombinezon ze złotym suwakiem — power look dla kobiety, która wie czego chce.</div>
+          <div class="size-picker" data-product="Kombinezon czarny ze złotym zamkiem">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">120 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kombinezon czarny ze złotym zamkiem 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPODNIE JEANSOWE Z KORONKĄ — PROMOCJA -->
+      <div class="product-card fade-in" data-cat="spodnie casualowe">
+        <div class="product-img">
+          <span class="badge hit">Promocja!</span>
+          <img src="produkty/att.A9IOp4ZE63zLofHXke3yrZ_o7yBXN_kOUXcg5rhwMAs.webp" alt="Spodnie jeansowe z koronką" class="variant-img active" data-variant="jeans">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodnie jeansowe z koronką 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spodnie jeansowe z koronką</div>
+          <div class="product-desc">Denim na górze, koronka na dole — wyjątkowy efekt dla śmiałych stylizacji.</div>
+          <div class="size-picker" data-product="Spodnie jeansowe z koronką">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">99 zł <span class="price-old">120 zł</span></span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodnie jeansowe z koronką 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPODNIE KREMOWE AŻUROWE -->
+      <div class="product-card fade-in" data-cat="spodnie casualowe">
+        <div class="product-img">
+          <img src="produkty/att.nk5dbAAOFlXgIcAQnEG71n6eU5XqUbqv6N8iItBmhBY.webp" alt="Spodnie kremowe ażurowe" class="variant-img active" data-variant="kremowe">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodnie kremowe ażurowe 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spodnie kremowe ażurowe</div>
+          <div class="product-desc">Szerokie spodnie w kremowym ażurowym wzorze — boho i elegancja połączone.</div>
+          <div class="size-picker" data-product="Spodnie kremowe ażurowe">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">69 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spodnie kremowe ażurowe 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPÓDNICA JEANSOWA RIPPED -->
+      <div class="product-card fade-in" data-cat="spodnie casualowe">
+        <div class="product-img">
+          <span class="badge new">Nowość</span>
+          <img src="produkty/att.gF_xE7gHw2Sc0VZF10u5KRG_UFQLI1KCE1Cg_afEDek.webp" alt="Spódnica jeansowa ripped" class="variant-img active" data-variant="jeans-1">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spódnica jeansowa ripped 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Spódnica jeansowa ripped</div>
+          <div class="product-desc">Mini spódnica jeansowa z przetarciami — casual i odważna. Zestawiaj z topem lub bluzką.</div>
+          <div class="size-picker" data-product="Spódnica jeansowa ripped">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">100 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Spódnica jeansowa ripped 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KURTKA JEANSOWA OVERSIZE -->
+      <div class="product-card fade-in" data-cat="casualowe">
+        <div class="product-img">
+          <img src="produkty/att.9hu5QRBEXoKOVGnQjCGXqLqJZJGM3SPulBSwWGq8QiI.webp" alt="Kurtka jeansowa oversize" class="variant-img active" data-variant="jeans">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka jeansowa oversize 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Kurtka jeansowa oversize</div>
+          <div class="product-desc">Jeansowa klasyka w luźnym kroju — pasuje do wszystkiego i nigdy nie wychodzi z mody.</div>
+          <div class="size-picker" data-product="Kurtka jeansowa oversize">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">100 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Kurtka jeansowa oversize 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       ZESTAWY — NOWA SEKCJA
+  ══════════════════════════════ -->
+  <section class="section zestawy-section" id="zestawy">
+    <div class="sec-head">
+      <h2 class="sec-title">✨ Gotowe zestawy</h2>
+      <span class="sec-sub">Komplet top + sukienka midi — gotowy look w jednej cenie</span>
+    </div>
+    <p class="zestawy-intro">Ilona dobrała dla Ciebie gotowe zestawy — top i sukienka midi stworzone do siebie. Jeden zakup, gotowa stylizacja.</p>
+    <div class="product-grid zestawy-grid">
+
+      <!-- ZESTAW 1: top żeberkowy szaro-beżowy + sukienka midi beżowa -->
+      <div class="product-card fade-in zestaw-card">
+        <div class="product-img">
+          <span class="badge hit">Zestaw</span>
+          <img src="produkty/att.-N66fKBtDjEchB4_VYOX3ytuoJ59Q85OpLhGu69JHzY.webp" alt="Zestaw żeberkowy szaro-beżowy" class="variant-img active" data-variant="szaro-beżowy">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw żeberkowy szaro-beżowy 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="zestaw-badge-label">Top + sukienka midi</div>
+          <div class="product-name">Zestaw żeberkowy szaro-beżowy</div>
+          <div class="product-desc">Crop top z wiązaniem i dopasowana sukienka midi — elegancki komplet na każdą okazję.</div>
+          <div class="size-picker" data-product="Zestaw żeberkowy szaro-beżowy">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">130 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw żeberkowy szaro-beżowy 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ZESTAW 2: sukienka midi żółta + sukienka sportowa z kapturem żółta -->
+      <div class="product-card fade-in zestaw-card">
+        <div class="product-img">
+          <span class="badge hit">Zestaw</span>
+          <img src="produkty/att.L3c2jdRqWAO9g0OomF9fkjJ04e9cgjtab7WdGNczifU.webp" alt="Zestaw żółty midi + sportowa" class="variant-img active" data-variant="żółty">
+          <img src="produkty/att.sk0fD5tvITozM9eQPS-K6iehjdAOWVJsfUg-1cjHYXA.webp" alt="Sukienka sportowa żółta z kapturem" class="variant-img" data-variant="żółta bluza">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw żółty sukienka midi + sportowa 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="żółty" style="background:yellow" title="żółta sukienka"></button>
+            <button class="color-dot" data-variant="żółta bluza" style="background: yellow" title="żółta bluza"></button>
+          </div>
+          <div class="zestaw-badge-label">Sukienka midi + sukienka sportowa</div>
+          <div class="product-name">Zestaw żółty — midi i sportowa</div>
+          <div class="product-desc">Elegancka żółta midi i sukienka sportowa z kapturem — dwa różne nastroje, jeden kolor.</div>
+          <div class="size-picker" data-product="Zestaw żółty midi sportowa">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">120 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw żółty sukienka midi + sportowa 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ZESTAW 3: sukienka midi różowa + sukienka sportowa z kapturem różowa -->
+      <div class="product-card fade-in zestaw-card">
+        <div class="product-img">
+          <span class="badge hit">Zestaw</span>
+          <img src="produkty/att.cxsRB0rCbJ6rPrHa6hrLWCfgzBmA49OT6lSx4M1CPkQ.webp" alt="Zestaw różowy midi + sportowa" class="variant-img active" data-variant="różowy">
+          <img src="produkty/att.Rvu_u7qOnzznK9J1SxSEKDsurCv4b5zgPmoH1AuJgUM.webp" alt="Sukienka sportowa różowa z kapturem" class="variant-img" data-variant="różowa">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw różowy sukienka midi + sportowa 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="różowy" style="background: pink" title="różowy"></button>
+            <button class="color-dot" data-variant="różowa" style="background: pink" title="różowa"></button>
+          </div>
+          <div class="zestaw-badge-label">Sukienka midi + sukienka sportowa</div>
+          <div class="product-name">Zestaw różowy — midi i sportowa</div>
+          <div class="product-desc">Różowa midi na wyjście i różowa sportowa na co dzień — kompletny różowy look.</div>
+          <div class="size-picker" data-product="Zestaw różowy midi sportowa">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">120 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw różowy sukienka midi + sportowa 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ZESTAW 4: biała sukienka midi + kurtka biała ze złotymi guzikami -->
+      <div class="product-card fade-in zestaw-card">
+        <div class="product-img">
+          <span class="badge hit">Zestaw</span>
+          <img src="produkty/att.pCNX1qUpO3SQe5XgKQ70OBwMxEGjA2lF_lkdW06yCkI.webp" alt="Zestaw biały midi + kurtka" class="variant-img active" data-variant="biały">
+          <img src="produkty/att.QyK-T9XwnE_sAO6kt0mYM12s9BkapKrIxS3jQEoCcSw.webp" alt="Kurtka biała ze złotymi guzikami" class="variant-img" data-variant="biała">
+          <div class="product-overlay">
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw biały sukienka midi + kurtka 😊" class="ov-btn wa" target="_blank">📱 Zamów WhatsApp</a>
+            <a href="https://m.me/ilonkakotowska" class="ov-btn fb" target="_blank">💬 Zamów Messenger</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="color-picker">
+            <button class="color-dot active" data-variant="biały" style="background: white" title="biały"></button>
+            <button class="color-dot" data-variant="biała" style="background: whitesmoke" title="biała"></button>
+          </div>
+          <div class="zestaw-badge-label">Sukienka midi + kurtka</div>
+          <div class="product-name">Zestaw biały — midi i kurtka</div>
+          <div class="product-desc">Biała sukienka midi i elegancka kurtka ze złotymi guzikami — idealny look na ważną okazję.</div>
+          <div class="size-picker" data-product="Zestaw biały midi kurtka">
+            <span class="size-label">Rozmiar:</span>
+            <div class="size-dots">
+              <button class="size-btn" data-size="XS">XS</button>
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="2XL">2XL</button>
+              <button class="size-btn" data-size="3XL">3XL</button>
+            </div>
+          </div>
+          <div class="product-price-row">
+            <span class="product-price">120 zł</span>
+            <a href="https://wa.me/48600344173?text=Cześć Ilona! Interesuje mnie Zestaw biały sukienka midi + kurtka 😊" class="price-order-btn" target="_blank">Zamów →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── OPINIE ── -->
+  <section class="section opinions-section" id="opinie">
+    <div class="sec-head">
+      <h2 class="sec-title">Co mówią klientki</h2>
+    </div>
+    <div class="opinions-grid">
+      <div class="opinion fade-in">
+        <div class="op-stars">★★★★★</div>
+        <p class="op-text">"Zamówiłam sukienkę na wesele, Ilona sama doradziła rozmiar. Wszystko idealnie!"</p>
+        <div class="op-name">— Magda, Lublin</div>
+      </div>
+      <div class="opinion fade-in">
+        <div class="op-stars">★★★★★</div>
+        <p class="op-text">"Super obsługa przez WhatsApp, szybka dostawa i jakość lepsza niż się spodziewałam."</p>
+        <div class="op-name">— Ania, Świdnik</div>
+      </div>
+      <div class="opinion fade-in">
+        <div class="op-stars">★★★★★</div>
+        <p class="op-text">"Wreszcie sklep gdzie można normalnie pogadać i nie kupować kota w worku!"</p>
+        <div class="op-name">— Kasia, Lublin</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TIKTOK BANNER ── -->
+  <section class="tiktok-banner">
+    <div class="tt-bg-blobs">
+      <div class="tt-blob tt-blob-1"></div>
+      <div class="tt-blob tt-blob-2"></div>
+    </div>
+    <div class="tt-inner">
+      <div class="tt-left">
+        <div class="tt-icon-wrap">
+          <svg class="tt-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+          </svg>
+        </div>
+        <div class="tt-text">
+          <span class="tt-eyebrow">Śledź nas w akcji</span>
+          <h2 class="tt-title">Nowe stylizacje<br><em>co tydzień na TikToku</em></h2>
+          <p class="tt-desc">Pokazy nowych kolekcji, porady jak łączyć ubrania i zakulisowe życie sklepu — wszystko na żywo.</p>
+        </div>
+      </div>
+      <div class="tt-right">
+        <a href="https://www.tiktok.com/@ilonakotowska8" class="tt-btn" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+          </svg>
+          Obserwuj na TikToku
+        </a>
+        <p class="tt-handle">@ilonakotowska8</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BOTTOM CTA ── -->
+  <section class="bottom-cta" id="kontakt">
+    <div class="bc-blobs">
+      <div class="bc-blob bc-blob-1"></div>
+      <div class="bc-blob bc-blob-2"></div>
+    </div>
+    <h2 class="bc-title">Gotowa na nową stylizację?</h2>
+    <p class="bc-sub">Napisz do Ilony — pomoże dobrać coś idealnego na każdą okazję</p>
+    <div class="bc-btns">
+      <a href="https://wa.me/48600344173?text=Cześć Ilona! Chciałabym zapytać o kolekcję 😊" class="bc-btn wa" target="_blank">📱 Napisz na WhatsApp</a>
+      <a href="https://m.me/ilonkakotowska" class="bc-btn fb" target="_blank">💬 Napisz na Messenger</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="f-logo">Ilonka</div>
+    <div class="f-social">
+      <a href="https://www.tiktok.com/@ilonakotowska8" class="f-social-link" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
         </svg>
-        <span style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase"><img src="Images/main page photo.jpg"></span>
-      </div>
-    </div>
-
-    <div class="promo-badge-hero">
-      <strong>130 zł</strong>
-      Promocja<br>do końca czerwca
-    </div>
-  </div>
-</section>
-
-<!-- PROMO BANNER -->
-<div class="promo-banner">
-  <p class="promo-text">✨ <strong>PROMOCJA DO KOŃCA CZERWCA</strong></p>
-  <span class="promo-sep">·</span>
-  <p class="promo-text">Każda objętość od 1D do 8D już od <strong>130 zł</strong></p>
-  <span class="promo-sep">·</span>
-  <p class="promo-text">Zadzwoń i zarezerwuj termin 📞</p>
-</div>
-
-<!-- SERVICES -->
-<section class="services" id="uslugi">
-  <div class="section-header fade-up">
-    <div>
-      <div class="section-tag">Nasze Usługi</div>
-      <h2 class="section-title">Efekty, które<br><em>mówią same za siebie</em></h2>
-    </div>
-    <p style="font-size:14px;color:var(--text-light);max-width:280px;line-height:1.8;text-align:right;">Każdy zabieg wykonujemy z najwyższą precyzją i dopasowujemy do Twoich oczekiwań.</p>
-  </div>
-
-  <div class="services-grid fade-up">
-
-    <div class="service-card">
-      <div class="service-num">01</div>
-      <h3 class="service-name">Efekt Rzęsy Kim</h3>
-      <div class="service-sub">Naturalny glamour</div>
-      <p class="service-desc">Subtelne przedłużenie rzęs, które podkreśla naturalne piękno oka. Idealny dla osób ceniących klasyczną elegancję — po jednej rzęsie na każde naturalne.</p>
-      <div class="service-arrow">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-num">02</div>
-      <h3 class="service-name">Efekt Volume Russian</h3>
-      <div class="service-sub">Pełna objętość</div>
-      <p class="service-desc">Rosyjski wolumen to technika tworzenia efektownych wachlarzowych rzęs. Daje imponującą objętość i niesamowity efekt pełnych, gęstych rzęs.</p>
-      <div class="service-arrow">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-num">03</div>
-      <h3 class="service-name">Efekt Hollywood</h3>
-      <div class="service-sub">Mocny, dramatyczny look</div>
-      <p class="service-desc">Efekt dla tych, które chcą olśniewać. Gęste, dramatyczne rzęsy inspirowane gwiazdorskim blaskiem. Wzrok, który przyciąga uwagę w każdym pomieszczeniu.</p>
-      <div class="service-arrow">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-num">04</div>
-      <h3 class="service-name">Efekt Blink & Express</h3>
-      <div class="service-sub">Szybki efekt WOW</div>
-      <p class="service-desc">Zabieg idealny dla zapracowanych kobiet — szybszy czas wykonania, spektakularny efekt. Wyglądaj olśniewająco nawet przy napiętym grafiku.</p>
-      <div class="service-arrow">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- PROMO SECTION -->
-<div class="promo-section fade-up">
-  <div class="promo-left">
-    <div class="section-tag" style="color:var(--gold-light);">Oferta Specjalna</div>
-    <h2 class="promo-headline">
-      Wiosenna<br>
-      <strong>Promocja</strong>
-    </h2>
-    <p class="promo-detail">Każda objętość od 1D do 8D w wyjątkowej cenie.</p>
-    <p class="promo-detail">Oferta ważna do końca czerwca 2026.</p>
-    <p class="promo-detail" style="margin-top:16px;">Zarezerwuj termin telefonicznie — ilość miejsc ograniczona!</p>
-  </div>
-  <div class="promo-right">
-    <div class="price-display">
-      <div class="price-was">od 160 zł</div>
-      <div class="price-now"><sup>tylko</sup>130<sub>zł</sub></div>
-      <div class="price-note">każda objętość 1D–8D</div>
-    </div>
-    <div class="promo-timer" id="timer">
-      <div class="timer-item">
-        <span class="timer-num" id="t-days">--</span>
-        <div class="timer-label">Dni</div>
-      </div>
-      <div class="timer-item">
-        <span class="timer-num" id="t-hours">--</span>
-        <div class="timer-label">Godz</div>
-      </div>
-      <div class="timer-item">
-        <span class="timer-num" id="t-min">--</span>
-        <div class="timer-label">Min</div>
-      </div>
-      <div class="timer-item">
-        <span class="timer-num" id="t-sec">--</span>
-        <div class="timer-label">Sek</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- BOOKING -->
-<section class="booking" id="rezerwacja">
-  <div class="booking-left fade-up">
-    <div class="section-tag">Rezerwacja</div>
-    <h2 class="section-title">Jak umówić<br><em>wizytę?</em></h2>
-    <p class="booking-desc">
-      Rezerwacja jest prosta i szybka — wystarczy telefon. Zadbaj o swoje rzęsy już dziś!
-    </p>
-    <div class="booking-steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-content">
-          <h4>Zadzwoń lub napisz SMS</h4>
-          <p>Skontaktuj się z nami pod numerem telefonu, podaj swoje imię i preferowany termin.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-content">
-          <h4>Wybierz usługę</h4>
-          <p>Powiedz, który efekt Cię interesuje — doradzimy, co będzie dla Ciebie najlepsze.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-content">
-          <h4>Potwierdź i przyjdź</h4>
-          <p>Potwierdzimy termin i czekamy na Ciebie! Zabieg w komfortowych warunkach.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="booking-right fade-up">
-    <div class="booking-phone-card">
-      <div class="phone-card-icon">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-          <path d="M4 5C4 3.9 4.9 3 6 3h4.2L12 7.5l-2.5 2.1C10.4 12 13 14.6 16.4 16l2.1-2.5L23 15.2V20c0 .83-.67 1.5-1.5 1.5A17.5 17.5 0 014 5z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        TikTok
+      </a>
+      <a href="https://www.instagram.com/ilonkakotowska" class="f-social-link ig" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
         </svg>
-      </div>
-      <div class="phone-card-label">Rezerwacja tylko telefonicznie</div>
-      <div class="phone-number">+48 600 344 173</div>
-      <div class="phone-hours">Pon – Sob: 9:00 – 19:00</div>
-      <a href="tel:+48000000000" class="btn-call">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M2 2.5C2 1.67 2.67 1 3.5 1h2.4L7 4.27l-1.5 1.23C6.07 6.86 7.14 7.93 8.5 8.5L9.73 7l3.27 1.1V10.5c0 .83-.67 1.5-1.5 1.5C5.1 12 2 8.9 2 5v-.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
-        Zadzwoń Teraz
+        Instagram
       </a>
     </div>
+    <div class="f-copy">© 2026 Ilonka — moda damska · Lublin</div>
+  </footer>
+
+  <!-- ── LIGHTBOX ── -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <div class="lightbox-img-wrap">
+      <img src="" alt="" id="lightboxImg">
+    </div>
+    <div class="lightbox-name" id="lightboxName"></div>
   </div>
-</section>
 
-<!-- FOOTER -->
-<footer>
-  <div>
-    <div class="footer-logo"><img src="Images/Oaza Spokoju Logo.png"></div>
-    <div class="footer-tagline">Stylizacja Rzęs · Lublin</div>
-  </div>
-  <ul class="footer-links">
-    <li><a href="#">Strona Główna</a></li>
-    <li><a href="#uslugi">Usługi</a></li>
-    <li><a href="#rezerwacja">Rezerwacja</a></li>
-  </ul>
-  <div class="footer-copy">© 2026 Oaza Spokoju. Wszelkie prawa zastrzeżone.</div>
-</footer>
-
-<script>
-  // Countdown timer to end of June 2026
-  function updateTimer() {
-    const end = new Date('2026-06-30T23:59:59');
-    const now = new Date();
-    const diff = end - now;
-    if (diff <= 0) {
-      document.getElementById('timer').innerHTML = '<div style="color:rgba(250,246,240,0.5);font-size:13px;letter-spacing:0.1em;">Promocja zakończona</div>';
-      return;
-    }
-    const days = Math.floor(diff / 86400000);
-    const hours = Math.floor((diff % 86400000) / 3600000);
-    const mins = Math.floor((diff % 3600000) / 60000);
-    const secs = Math.floor((diff % 60000) / 1000);
-    document.getElementById('t-days').textContent = String(days).padStart(2,'0');
-    document.getElementById('t-hours').textContent = String(hours).padStart(2,'0');
-    document.getElementById('t-min').textContent = String(mins).padStart(2,'0');
-    document.getElementById('t-sec').textContent = String(secs).padStart(2,'0');
-  }
-  updateTimer();
-  setInterval(updateTimer, 1000);
-
-  // Fade-up on scroll
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-
-  // Replace placeholder phone numbers
-  // document.querySelectorAll('[href="tel:+48000000000"]').forEach(el => el.href = 'tel:+48TWOJNUMER');
-</script>
+  <script src="script.js"></script>
 </body>
 </html>
